@@ -6,7 +6,7 @@
         docklands5k
       </h1>
       <h2 class="subtitle">
-        Docklands 5k race website
+        Docklands 5k race website 2019
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green"
