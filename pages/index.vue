@@ -1,67 +1,30 @@
 <template>
   <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        docklands5k
-      </h1>
-      <h2 class="subtitle">
-        Docklands 5k race website 2019
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
-      </div>
-    </div>
+    <home-header></home-header>
+    <home-race></home-race>
+    <home-route></home-route>
+    <home-faq></home-faq>
+    <home-sponsors></home-sponsors>
+    <home-footer></home-footer>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import HomeHeader from '~/components/HomeHeader.vue'
+import HomeRace from '~/components/HomeRace.vue'
+import HomeRoute from '~/components/HomeRoute.vue'
+import HomeFaq from '~/components/HomeFaq.vue'
+import HomeSponsors from '~/components/HomeSponsors.vue'
+import HomeFooter from '~/components/HomeFooter.vue'
 
 export default {
   components: {
-    Logo
+    HomeHeader,
+    HomeRace,
+    HomeRoute,
+    HomeFaq,
+    HomeSponsors,
+    HomeFooter
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
