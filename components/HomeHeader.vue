@@ -116,6 +116,14 @@ export default {
     background-image: url(~assets/images/runners-2016-l.jpg);
   }
 
+  .content {
+    width: 60%;
+
+    .logo {
+      width: 100%;
+    }
+  }
+
   #bouncing-arrow {
     position: absolute;
     left: 0;
