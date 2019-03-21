@@ -7,11 +7,6 @@
         alt="Docklands 5k logo"
       />
       <h3>Thursday June 20th 2019</h3>
-      <div id="bouncing-arrow">
-        <a href="#race" class="nav" @click="scrollTo">
-          <i class="fas fa-chevron-down"></i>
-        </a>
-      </div>
       <div class="social-links">
         <a href="https://www.facebook.com/crusaders5k" target="_blank">
           <i class="fab fa-facebook-f"></i>
@@ -50,35 +45,6 @@ export default {
     },
     resizeLanding() {
       this.$refs.header.style.height = window.innerHeight + 'px'
-    },
-    scrollTo(e) {
-      e.preventDefault()
-      console.log(e.currentTarget)
-      // if (
-      //   location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
-      //   location.hostname == this.hostname
-      // ) {
-      //   var target = $(this.hash);
-      //   if (history.pushState) {
-      //     history.pushState(null, null, this.hash);
-      //   }
-
-      //   // toggle the menu
-      //   if ($(this).hasClass("menu")) {
-      //     // hide the hamburger menu
-      //     $(".cmn-toggle-switch").click();
-      //   }
-
-      //   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      //   if (target.length) {
-      //     $('html,body').animate({
-      //         scrollTop: target.offset().top
-      //       }, 500, function() {
-      //         window.location.hash = target.selector;
-      //       });
-      //     return false;
-      //   }
-      // }
     }
   }
 }
@@ -86,6 +52,7 @@ export default {
 
 <style scoped lang="scss">
 @import '~assets/css/_vars';
+
 @keyframes bounce {
   50% {
     transform: translate(0px, -15px);
@@ -104,13 +71,13 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  border-top: solid 5px #8cc63f;
+  border-top: solid 5px $highlight;
 
   @media screen and (max-width: $break-medium - 1) {
-    background-image: url(~assets/images/runners-2016-s.jpg);
+    background-image: url(~assets/images/runners-2016-l.jpg);
   }
   @media screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
-    background-image: url(~assets/images/runners-2016-m.jpg);
+    background-image: url(~assets/images/runners-2016-l.jpg);
   }
   @media screen and (min-width: $break-large) {
     background-image: url(~assets/images/runners-2016-l.jpg);

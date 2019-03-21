@@ -7,7 +7,6 @@
 $font-size: 16px;
 
 @keyframes bounce { 50% { transform: translate(0px, -15px); } 100%  { transform: translate(0px, 0px); } }
-@keyframes hamburgerShow { 0% { opacity: 0;	} 100% { opacity:1;	}}
 
 body {
 	font-family: Oswald;
@@ -32,6 +31,7 @@ h1, h2, h3, h4, h5 {
 	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
+	line-height: 1em;
 }
 
 h2 {
@@ -42,6 +42,10 @@ h2 {
 	padding: 15px 0;
 	margin: 0;
 	border-top: solid 5px $highlight;
+
+	@media screen and (max-width: $break-medium - 1) {
+		font-size: 3.5em;
+	}
 }
 
 h3 {
