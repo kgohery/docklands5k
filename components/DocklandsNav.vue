@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div id="nav">
     <div id="hamburger" @click="toggleMenu">
       <span></span>
       <span></span>
@@ -9,11 +9,13 @@
       <span></span>
     </div>
     <nav class="links">
-      <a href="#" @click="toggleMenu($event, '.header')"><h2>Home</h2></a>
-      <a href="#" @click="toggleMenu($event, '.race')"><h2>Race</h2></a>
-      <a href="#" @click="toggleMenu($event, '.route')"><h2>Route</h2></a>
-      <a href="#" @click="toggleMenu($event, '.faq')"><h2>FAQ</h2></a>
-      <a href="#" @click="toggleMenu($event, '.sponsors')"><h2>Sponsors</h2></a>
+      <a href="#top" @click="toggleMenu($event, '.header')"><h2>Home</h2></a>
+      <a href="#race" @click="toggleMenu($event, '.race')"><h2>Race</h2></a>
+      <a href="#route" @click="toggleMenu($event, '.route')"><h2>Route</h2></a>
+      <a href="#faq" @click="toggleMenu($event, '.faq')"><h2>FAQ</h2></a>
+      <a href="#sponsors" @click="toggleMenu($event, '.sponsors')"
+        ><h2>Sponsors</h2></a
+      >
       <a
         href="https://register.primoevents.com/ps/event/Docklands5K2019"
         target="_blank"
@@ -27,13 +29,8 @@
 export default {
   methods: {
     toggleMenu(e, section) {
-      document.querySelector('.nav #hamburger').classList.toggle('open')
-      document.querySelector('.nav .links').classList.toggle('open')
-
-      if (section) {
-        e.preventDefault()
-        document.querySelector(section).scrollIntoView()
-      }
+      document.querySelector('#nav #hamburger').classList.toggle('open')
+      document.querySelector('#nav .links').classList.toggle('open')
     }
   }
 }

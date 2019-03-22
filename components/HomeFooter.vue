@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div id="footer">
     <div class="social-links">
       <a href="https://www.facebook.com/crusaders5k" target="_blank">
         <i class="fab fa-facebook-f"></i>

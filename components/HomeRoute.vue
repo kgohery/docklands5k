@@ -1,5 +1,5 @@
 <template>
-  <div class="route">
+  <div id="route">
     <h2>Route</h2>
     <section class="col-xs-12">
       <picture class="route">

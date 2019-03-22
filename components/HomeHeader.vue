@@ -1,5 +1,5 @@
 <template>
-  <div ref="header" class="header">
+  <div id="top" ref="header">
     <div class="content">
       <img
         src="@/assets/images/logo-white.png"
@@ -62,7 +62,7 @@ export default {
   }
 }
 
-.header {
+#top {
   position: relative;
   display: flex;
   flex-flow: column nowrap;

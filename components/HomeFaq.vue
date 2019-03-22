@@ -1,5 +1,5 @@
 <template>
-  <section class="faq">
+  <section id="faq">
     <h2>FAQ</h2>
     <a class="question" @click="toggleAnswer('instructions')">
       Race day instructions
@@ -177,8 +177,8 @@
       </p>
       <p>
         Check out the club website
-        <a href="http://www.crusadersac.org" target="_blank">
-          www.crusadersac.org
+        <a href="http://www.crusadersac.ie" target="_blank">
+          www.crusadersac.ie
         </a>
       </p>
     </div>

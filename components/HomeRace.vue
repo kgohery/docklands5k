@@ -1,5 +1,5 @@
 <template>
-  <div class="race">
+  <div id="race">
     <h2>Race</h2>
     <div class="content">
       <section>

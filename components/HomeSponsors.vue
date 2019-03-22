@@ -1,5 +1,5 @@
 <template>
-  <div class="sponsors">
+  <div id="sponsors">
     <h2>Sponsors</h2>
     <div class="links">
       <a href="https://www.doylecollection.com/" target="_blank"
@@ -50,11 +50,11 @@
       <a href="https://www.rebalancephysiotherapy.ie/" target="_blank"
         ><img src="@/assets/images/sponsors/logo-rebalance.png" alt="Rebalance"
       /></a>
-      <!-- <a href="http://applegreenstores.com/ie/" target="_blank"
+      <a href="https://www.voltairediamonds.ie/" target="_blank"
         ><img
-          src="@/assets/images/sponsors/logo-applegreen.png"
-          alt="Applegreen"
-      /></a> -->
+          src="@/assets/images/sponsors/logo-voltaire.png"
+          alt="Voltaire Diamonds"
+      /></a>
       <!-- <a href="http://www.q-park.ie/" target="_blank"
         ><img src="@/assets/images/sponsors/logo-qpark.png" alt="QPark"
       /></a> -->
