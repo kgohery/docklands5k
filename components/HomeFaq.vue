@@ -244,11 +244,19 @@ export default {
   cursor: pointer;
   border-top: solid 1px $white;
   text-transform: uppercase;
+
+  @media screen and (max-width: $break-medium - 1) {
+    text-align: center;
+  }
 }
 
 .answer {
   display: none;
   padding: 2em;
+
+  @media screen and (max-width: $break-medium - 1) {
+    padding: 2em 0;
+  }
 
   &__open {
     display: block;
