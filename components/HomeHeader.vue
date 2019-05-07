@@ -2,7 +2,7 @@
   <div id="top" ref="header">
     <div class="content">
       <img
-        src="@/assets/images/logo-white.png"
+        src="@/assets/images/logo-indeed-white.png"
         class="logo"
         alt="Docklands 5k logo"
       />
