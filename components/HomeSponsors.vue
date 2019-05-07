@@ -2,6 +2,9 @@
   <div id="sponsors">
     <h2>Sponsors</h2>
     <div class="links">
+      <a href="https://ie.indeed.com/" target="_blank" class="primary">
+        <img src="@/assets/images/sponsors/logo-indeed.png" alt="Indeed" />
+      </a>
       <a href="https://www.doylecollection.com/" target="_blank"
         ><img
           src="@/assets/images/sponsors/logo-doyle-collection.png"
@@ -92,6 +95,10 @@
 
     img {
       width: 90%;
+    }
+
+    &.primary {
+      width: 70%;
     }
   }
 }
