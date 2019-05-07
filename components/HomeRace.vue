@@ -18,7 +18,9 @@
           and wellbeing in the community.
         </p>
         <p>
-          We look forward to seeing you there!!
+          We look forward to seeing you there, including
+          <a href="https://ie.indeed.com/" target="_blank">Indeed</a> who, as
+          lead sponsor, are supporting us for the next 3 years!
         </p>
       </section>
       <section>
