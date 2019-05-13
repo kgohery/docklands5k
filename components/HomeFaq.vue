@@ -1,19 +1,15 @@
 <template>
   <section id="faq">
     <h2>FAQ</h2>
-    <a class="question" @click="toggleAnswer('instructions')">
-      Race day instructions
-    </a>
-    <div class="answer instructions">
-      Instructions for the day of the race will be provided here shortly.
-    </div>
     <a class="question" @click="toggleAnswer('race')">
       What about the Race itself?
     </a>
     <div class="answer race">
-      The race will be a flat 5k route around the docklands area and will be
-      held on the evening of Thursday, June 20th, starting at 7:45pm. See the
-      <a href="#route">Route Map</a> section.
+      <p>
+        The race will be a flat 5k route around the docklands area and will be
+        held on the evening of Thursday, June 2\0th, starting at 7:45pm. See the
+        <a href="#route">Route Map</a> section.
+      </p>
     </div>
     <a class="question" @click="toggleAnswer('fee')">
       What's the Entry Fee?
@@ -78,8 +74,29 @@
       Prizes
     </a>
     <div class="answer prizes">
+      <h5>Individual Prizes</h5>
       <p>
-        TBD
+        Cash prizes for 1st, 2nd and 3rd male and female athletes across the
+        line.
+      </p>
+      <h5>Age Category Prizes</h5>
+      <p>
+        Male and Female: 1st O/40, 45, 50, 55, 60 and 65 and 2nd O/40, 45 and
+        50<br />
+        In order to be eligible for individual prizes runners should be outside
+        of 1st 3 across the line or in a podium-placed corporate team).
+      </p>
+      <h5>Teams</h5>
+      <p>
+        Cash prizes for 1st, 2nd and 3rd mixed (in any combination), all male
+        and all female teams of 3. There will also be trophies for winning male
+        and female AAI-affiliated athletic club teams.
+      </p>
+      <h5>Course Records</h5>
+      <p>
+        There are prizes for breaking the male and female course records which
+        respectively stand at 14:30 (John Coghlan) and 16:12 (Shona Heaslip) set
+        in 2017.
       </p>
     </div>
     <a class="question" @click="toggleAnswer('collection')">
@@ -87,7 +104,15 @@
     </a>
     <div class="answer collection">
       <p>
-        [Location and opening hours TBD]
+        Registration (numbers and t-shirt pickup for those who will not be
+        availing of the mailing arrangement) will be held at Club Vitae in the
+        basement of the Clayton Hotel on Cardiff Lane. Hours will be:<br />
+        Wednesday 19 June: 07:00-09:00; 12:00-14:00 and 17:00-19:00<br />
+        Thursday 20 June: 07:00-09:00; 12:00-14:00 and 17:00-19:00
+      </p>
+      <p>
+        Anyone receiving his or her number by mail can collect a shirt at
+        registration or following the race upon presentation of the race number.
       </p>
     </div>
     <a class="question" @click="toggleAnswer('bag-drop')">
@@ -205,10 +230,7 @@
       </p>
       <p>
         2016:
-        <a
-          href="
-            http://www.myrunresults.com/events/docklands_5k/1654/results"
-        >
+        <a href="http://www.myrunresults.com/events/docklands_5k/1654/results">
           http://www.myrunresults.com/events/docklands_5k/1654/results
         </a>
       </p>
@@ -253,6 +275,10 @@ export default {
 .answer {
   display: none;
   padding: 2em;
+
+  p {
+    padding: 1em 0;
+  }
 
   @media screen and (max-width: $break-medium - 1) {
     padding: 2em 0;
