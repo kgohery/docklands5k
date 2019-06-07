@@ -26,7 +26,8 @@
       <p>
         After that time (up to race day at 17:00) or until we reach the race
         limit we will be able to accept walk-ins for €25 per entry. Available at
-        number pick up. [TBD]
+        number and shirt pick up in Club Vitae in the Clayton Hotel on Cardiff
+        Lane.
       </p>
     </div>
     <a class="question" @click="toggleAnswer('get')">
@@ -66,8 +67,8 @@
         will cross the Bridge again and back to the South Quay. From there you
         will run back past the start line. The finish line is approx. 500 metres
         beyond the start line and you will finish at Sir John Rogerson's Quay.
-        You are then just a small stroll away from the bag drop area [TBD] and
-        that well deserved night out!!
+        You are then just a small stroll away from the bag drop area on Admiral
+        Brown Street and that well deserved night out!!
       </p>
     </div>
     <a class="question" @click="toggleAnswer('prizes')">
@@ -84,7 +85,7 @@
         Male and Female: 1st O/40, 45, 50, 55, 60 and 65 and 2nd O/40, 45 and
         50<br />
         In order to be eligible for individual prizes runners should be outside
-        of 1st 3 across the line or in a podium-placed corporate team).
+        of 1st 3 across the line or in a podium-placed corporate team.
       </p>
       <h5>Teams</h5>
       <p>
@@ -111,8 +112,10 @@
         Thursday 20 June: 07:00-09:00; 12:00-14:00 and 17:00-19:00
       </p>
       <p>
-        Anyone receiving his or her number by mail can collect a shirt at
-        registration or following the race upon presentation of the race number.
+        Anyone who has had their number sent out to them by mail is welcome to
+        come into registration and, upon presentation of the number, can get the
+        t-shirt. Otherwise, we'll have tee shirts available after the finish
+        line for those who want to collect them but we can't guarantee size!
       </p>
     </div>
     <a class="question" @click="toggleAnswer('bag-drop')">
@@ -120,11 +123,11 @@
     </a>
     <div class="answer bag-drop">
       <p>
-        There will be a designated bag drop area [TBD] At registration you will
-        receive a sticker coinciding with your race number which you should
-        attach to your baggage. Collect your baggage in the same spot after the
-        race and DON'T forget to bring your race number so that we know which
-        bag to give you back!!!
+        There will be a designated bag drop area on Admiral Brown Street. At
+        registration you will receive a sticker coinciding with your race number
+        which you should attach to your baggage. Collect your baggage in the
+        same spot after the race and DON'T forget to bring your race number so
+        that we know which bag to give you back!!!
       </p>
     </div>
     <a class="question" @click="toggleAnswer('water')">
