@@ -84,21 +84,34 @@ export default {
   background-position: top center;
   border-top: solid 5px $highlight;
 
+  .content {
+    width: 80%;
+    text-align: center;
+    .logo {
+      width: 65%;
+    }
+  }
+
   @media screen and (max-width: $break-medium - 1) {
     background-image: url(~assets/images/runners-2016-l.jpg);
   }
   @media screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
     background-image: url(~assets/images/runners-2016-l.jpg);
+    .content {
+      .logo {
+        width: 80%;
+      }
+    }
   }
   @media screen and (min-width: $break-large) {
     background-image: url(~assets/images/runners-2016-l.jpg);
   }
 
-  .content {
-    width: 80%;
-    text-align: center;
-    .logo {
-      width: 80%;
+  @media screen and (max-width: $break-medium - 1) {
+    .content {
+      .logo {
+        width: 100%;
+      }
     }
   }
 
