@@ -7,7 +7,7 @@
       <a href="https://twitter.com/docklands5k" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.instagram.com/docklands5k" target="_blank">
+      <a href="https://www.instagram.com/IndeedDocklands5k" target="_blank">
         <i class="fab fa-instagram"></i>
       </a>
     </div>

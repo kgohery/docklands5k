@@ -7,7 +7,7 @@
     <div class="answer race">
       <p>
         The race will be a flat 5k route around the docklands area and will be
-        held on the evening of Thursday, June 2\0th, starting at 7:45pm. See the
+        held on the evening of Thursday, June 20th, starting at 7:45pm. See the
         <a href="#route">Route Map</a> section.
       </p>
     </div>
