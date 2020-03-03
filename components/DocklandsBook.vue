@@ -1,11 +1,13 @@
 <template>
   <div class="book">
+    <!--
     <a
       class="button"
       href="https://register.primoevents.com/ps/event/Docklands5K2019"
       target="_blank"
       >Register Now</a
     >
+    -->
   </div>
 </template>
 

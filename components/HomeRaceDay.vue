@@ -14,9 +14,6 @@
       </p>
       <h4>Baggage Drop Off</h4>
       <p>
-        The baggage area will be located on Admiral Brown Street which is
-        situated between Lazer Lane and Sir John Rogerson’s Quay (entrance
-        between McCann Fitzgerald and Beauchamps on Sir john Rogerson’s Quay).
         Directions will be clearly signposted. You will be provided with a bag
         tag at drop-off. Please write on the tag your race number that you will
         be given at registration and attach it to your bag. Pens will be
@@ -61,11 +58,7 @@
         After you cross the finish line please keep moving and follow the
         instructions of the stewards who will direct you towards the water and
         refreshment pick-up on your way back to the baggage area. Water will be
-        available at the finish line and on Forbes Street near to the Marker
-        Hotel and there will be signs directing you to the water location and
-        thereafter to the baggage area. Please do not discard emp ty water
-        bottles or any other litter in the street. There will be bins provided
-        for the purpose. Please use them.
+        available at the finish line.
       </p>
       <h4>Prize-giving</h4>
       <p>

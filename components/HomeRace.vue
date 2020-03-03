@@ -5,7 +5,7 @@
       <section>
         <h4>What is it?</h4>
         <p>
-          The 2019 race will take place on Thursday, June 20th, starting at
+          The 2020 race will take place on Tuesday, July 7th, starting at
           7:45pm. The distance is 5k, run over a flat, fast loop in Dublin's
           Docklands area. Organised by the runners from Crusaders Athletic Club,
           the Docklands 5k race is held with the help of the generous

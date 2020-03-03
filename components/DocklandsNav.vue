@@ -9,20 +9,22 @@
       <span></span>
     </div>
     <nav class="links">
-      <a href="#top" @click="toggleMenu($event)"><h2>Home</h2></a>
-      <a href="#race" @click="toggleMenu($event)"><h2>Race</h2></a>
-      <a href="#route" @click="toggleMenu($event)"><h2>Route</h2></a>
-      <a href="#race-day" @click="toggleMenu($event)">
+      <a @click="toggleMenu($event)" href="#top"><h2>Home</h2></a>
+      <a @click="toggleMenu($event)" href="#race"><h2>Race</h2></a>
+      <a @click="toggleMenu($event)" href="#route"><h2>Route</h2></a>
+      <a @click="toggleMenu($event)" href="#race-day">
         <h2>Race Day Information</h2>
       </a>
-      <a href="#faq" @click="toggleMenu($event)"><h2>FAQ</h2></a>
-      <a href="#sponsors" @click="toggleMenu($event)"><h2>Sponsors</h2></a>
+      <a @click="toggleMenu($event)" href="#faq"><h2>FAQ</h2></a>
+      <a @click="toggleMenu($event)" href="#sponsors"><h2>Sponsors</h2></a>
+      <!--
       <a
         href="https://register.primoevents.com/ps/event/Docklands5K2019"
         target="_blank"
       >
         <h2>Register Now</h2>
       </a>
+      -->
     </nav>
   </div>
 </template>

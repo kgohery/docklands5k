@@ -1,27 +1,27 @@
 <template>
   <section id="faq">
     <h2>FAQ</h2>
-    <a class="question" @click="toggleAnswer('race')">
+    <a @click="toggleAnswer('race')" class="question">
       What about the Race itself?
     </a>
     <div class="answer race">
       <p>
         The race will be a flat 5k route around the docklands area and will be
-        held on the evening of Thursday, June 20th, starting at 7:45pm. See the
+        held on the evening of Tuesday, July 7th, starting at 7:45pm. See the
         <a href="#route">Route Map</a> section.
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('fee')">
+    <a @click="toggleAnswer('fee')" class="question">
       What's the Entry Fee?
     </a>
     <div class="answer fee">
       <p>
-        The race entry fee is &euro;20 per individual athlete. Teams of 3 are
-        &euro;60. There will be a small admin fee to cover bank charges and
+        The race entry fee is &euro;21 per individual athlete. Teams of 3 are
+        &euro;63. There will be a small admin fee to cover bank charges and
         process fees. The minimum age requirement for entry into the race is 16.
       </p>
       <p>
-        Online entries close at 21:00 on Monday 17th June.
+        Online entries close at 21:00 on Sunday July 5th.
       </p>
       <p>
         After that time (up to race day at 17:00) or until we reach the race
@@ -30,7 +30,7 @@
         Lane.
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('get')">
+    <a @click="toggleAnswer('get')" class="question">
       What do I get for this?
     </a>
     <div class="answer get">
@@ -52,13 +52,13 @@
         </a>
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('course')">
+    <a @click="toggleAnswer('course')" class="question">
       The Course
     </a>
     <div class="answer course">
       <p>
-        The race will be held on Thursday, June 20th, starting at 7:45pm. The
-        race starts on the South Docks at Lime Street which is very near to the
+        The race will be held on Tuesday, July 7th, starting at 7:45pm. The race
+        starts on the South Docks at Lime Street which is very near to the
         Samuel Beckett Bridge - that's the one almost opposite the Convention
         Centre. From there you will head towards the City Centre all the way to
         the Matt Talbot Bridge which you will cross over to the North Quay. From
@@ -67,11 +67,9 @@
         will cross the Bridge again and back to the South Quay. From there you
         will run back past the start line. The finish line is approx. 500 metres
         beyond the start line and you will finish at Sir John Rogerson's Quay.
-        You are then just a small stroll away from the bag drop area on Admiral
-        Brown Street and that well deserved night out!!
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('prizes')">
+    <a @click="toggleAnswer('prizes')" class="question">
       Prizes
     </a>
     <div class="answer prizes">
@@ -100,7 +98,7 @@
         in 2017.
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('collection')">
+    <a @click="toggleAnswer('collection')" class="question">
       WHERE DO I COLLECT RACE NUMBERS AND TECH RUNNING T-SHIRT?
     </a>
     <div class="answer collection">
@@ -108,8 +106,8 @@
         Registration (numbers and t-shirt pickup for those who will not be
         availing of the mailing arrangement) will be held at Club Vitae in the
         basement of the Clayton Hotel on Cardiff Lane. Hours will be:<br />
-        Wednesday 19 June: 07:00-09:00; 12:00-14:00 and 17:00-19:00<br />
-        Thursday 20 June: 07:00-09:00; 12:00-14:00 and 17:00-19:00
+        Monday July 6th: 07:00-09:00; 12:00-14:00 and 17:00-19:00<br />
+        Tuesday July 7th: 07:00-09:00; 12:00-14:00 and 17:00-19:00
       </p>
       <p>
         Anyone who has had their number sent out to them by mail is welcome to
@@ -118,7 +116,8 @@
         line for those who want to collect them but we can't guarantee size!
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('bag-drop')">
+    <!--
+    <a @click="toggleAnswer('bag-drop')" class="question">
       WHERE CAN I LEAVE MY STUFF WHILST I RACE?
     </a>
     <div class="answer bag-drop">
@@ -130,7 +129,8 @@
         that we know which bag to give you back!!!
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('water')">
+    -->
+    <a @click="toggleAnswer('water')" class="question">
       WILL THERE BE WATER AVAILABLE?
     </a>
     <div class="answer water">
@@ -153,7 +153,7 @@
         to hear about other post-race refreshments!
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('money')">
+    <a @click="toggleAnswer('money')" class="question">
       AND WHERE DOES THE MONEY GO?
     </a>
     <div class="answer money">
@@ -188,8 +188,8 @@
         this investment, are the anchor tenant in the stadium which is managed
         by DCC and open to all. The offering of the facilities in Irishtown
         Stadium to both residents and local companies' employees has seen our
-        membership grow to 650 members (250 children and 400 adults) in 2015. We
-        thus provide a crucial role in the Docklands community providing a
+        membership grow to 650 members (250 children and 400 adults) since 2015.
+        We thus provide a crucial role in the Docklands community providing a
         healthy and worthwhile recreational activity to all.
       </p>
       <p>
@@ -210,7 +210,7 @@
         </a>
       </p>
     </div>
-    <a class="question" @click="toggleAnswer('results')">
+    <a @click="toggleAnswer('results')" class="question">
       Results
     </a>
     <div class="answer results">

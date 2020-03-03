@@ -6,7 +6,7 @@
         class="logo"
         alt="Docklands 5k logo"
       />
-      <h3>Thursday June 20th 2019</h3>
+      <h3>Tuesday July 7th 2020</h3>
       <div class="instructions">
         <h3>
           <a
