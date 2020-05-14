@@ -3,6 +3,7 @@
     <docklands-nav class="nav"></docklands-nav>
     <docklands-book></docklands-book>
     <home-header></home-header>
+    <home-covid></home-covid>
     <home-race></home-race>
     <home-route></home-route>
     <home-race-day></home-race-day>
@@ -22,6 +23,7 @@ import HomeRaceDay from '~/components/HomeRaceDay.vue'
 import HomeFaq from '~/components/HomeFaq.vue'
 import HomeSponsors from '~/components/HomeSponsors.vue'
 import HomeFooter from '~/components/HomeFooter.vue'
+import HomeCovid from '~/components/HomeCovid.vue'
 
 export default {
   components: {
@@ -33,7 +35,8 @@ export default {
     HomeRaceDay,
     HomeFaq,
     HomeSponsors,
-    HomeFooter
+    HomeFooter,
+    HomeCovid
   }
 }
 </script>

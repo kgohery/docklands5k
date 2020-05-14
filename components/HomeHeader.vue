@@ -6,8 +6,8 @@
         class="logo"
         alt="Docklands 5k logo"
       />
-      <h3>Tuesday July 7th 2020</h3>
-      <div class="instructions">
+      <h3><a href="#covid">2020 Race Cancelled due to Covid-19</a></h3>
+      <!--<div class="instructions">
         <h3>
           <a
             href="https://docs.google.com/document/d/1kpH883cvk1JbXcxhX87MiO-4s4xvpZgkB8KsyKYksLM/edit?usp=sharing"
@@ -17,7 +17,7 @@
           >
         </h3>
       </div>
-
+      -->
       <div class="social-links">
         <a href="https://www.facebook.com/crusaders5k" target="_blank">
           <i class="fab fa-facebook-f"></i>
