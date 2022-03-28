@@ -13,12 +13,12 @@
         <h2>Home</h2>
       </a>
       <a href="#race" @click="toggleMenu($event)">
-        <h2>Virtual Race</h2>
+        <h2>Race</h2>
       </a>
-      <!-- <a @click="toggleMenu($event)" href="#route"><h2>Route</h2></a>
+      <a @click="toggleMenu($event)" href="#route"><h2>Route</h2></a>
       <a @click="toggleMenu($event)" href="#race-day">
         <h2>Race Day Information</h2>
-      </a>-->
+      </a>
       <a href="#faq" @click="toggleMenu($event)">
         <h2>FAQ</h2>
       </a>
