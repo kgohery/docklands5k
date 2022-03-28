@@ -21,13 +21,13 @@
 
 <script>
 export default {
-  name: 'DocklandsFooter',
+  name: 'HomeFooter',
   data() {
     return {
-      year: new Date().getFullYear()
-    }
-  }
-}
+      year: new Date().getFullYear(),
+    };
+  },
+};
 </script>
 
 <style scoped lang="scss">

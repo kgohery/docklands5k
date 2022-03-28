@@ -2,11 +2,13 @@
   <div id="top" ref="header">
     <div class="content">
       <img
-        src="@/assets/images/logo-indeed-white.png"
+        src="@/assets/images/logo-white.png"
         class="logo"
         alt="Docklands 5k logo"
       />
-      <h3><a href="#covid">2020 Race Cancelled due to Covid-19</a></h3>
+
+      <h3>Thursday, June 23rd@ 7:45pm</h3>
+
       <!--<div class="instructions">
         <h3>
           <a
@@ -18,13 +20,16 @@
         </h3>
       </div>
       -->
+
       <div class="social-links">
         <a href="https://www.facebook.com/crusaders5k" target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
+
         <a href="https://twitter.com/docklands5k" target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
+
         <a href="https://www.instagram.com/IndeedDocklands5k" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
@@ -35,30 +40,27 @@
 
 <script>
 export default {
-  name: 'DocklandsHeader',
-
+  name: 'HomeHeader',
   beforeDestroy() {
-    window.removeEventListener('resize', this.onWindowResize)
+    window.removeEventListener('resize', this.onWindowResize);
   },
-
   mounted() {
-    this.resizeLanding()
-    window.addEventListener('resize', this.onWindowResize)
+    this.resizeLanding();
+    window.addEventListener('resize', this.onWindowResize);
   },
-
   methods: {
     onWindowResize() {
       // Debounce the resize call
-      clearTimeout(this.resizeTimer)
+      clearTimeout(this.resizeTimer);
       this.resizeTimer = setTimeout(() => {
-        this.resizeLanding()
-      }, 250)
+        this.resizeLanding();
+      }, 250);
     },
     resizeLanding() {
-      this.$refs.header.style.height = window.innerHeight + 'px'
-    }
-  }
-}
+      this.$refs.header.style.height = window.innerHeight + 'px';
+    },
+  },
+};
 </script>
 
 <style scoped lang="scss">

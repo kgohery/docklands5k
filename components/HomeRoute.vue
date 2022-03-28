@@ -50,6 +50,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'HomeRoute',
+};
+</script>
+
 <style scoped lang="scss">
 .route img {
   width: 100%;

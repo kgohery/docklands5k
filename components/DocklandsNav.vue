@@ -9,20 +9,20 @@
       <span></span>
     </div>
     <nav class="links">
-      <a @click="toggleMenu($event)" href="#top">
+      <a href="#top" @click="toggleMenu($event)">
         <h2>Home</h2>
       </a>
-      <a @click="toggleMenu($event)" href="#race">
+      <a href="#race" @click="toggleMenu($event)">
         <h2>Virtual Race</h2>
       </a>
       <!-- <a @click="toggleMenu($event)" href="#route"><h2>Route</h2></a>
       <a @click="toggleMenu($event)" href="#race-day">
         <h2>Race Day Information</h2>
       </a>-->
-      <a @click="toggleMenu($event)" href="#faq">
+      <a href="#faq" @click="toggleMenu($event)">
         <h2>FAQ</h2>
       </a>
-      <a @click="toggleMenu($event)" href="#sponsors">
+      <a href="#sponsors" @click="toggleMenu($event)">
         <h2>Sponsors</h2>
       </a>
       <!--
@@ -39,17 +39,18 @@
 
 <script>
 export default {
+  name: 'DocklandsNav',
   methods: {
     toggleMenu(e) {
-      document.querySelector('#nav #hamburger').classList.toggle('open')
-      document.querySelector('#nav .links').classList.toggle('open')
-    }
-  }
-}
+      document.querySelector('#nav #hamburger').classList.toggle('open');
+      document.querySelector('#nav .links').classList.toggle('open');
+    },
+  },
+};
 </script>
 
 <style scoped lang="scss">
-@import '~assets/css/_vars';
+@import '~/assets/css/_vars';
 
 .nav-container {
   width: 100%;

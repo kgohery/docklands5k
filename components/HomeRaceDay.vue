@@ -1,18 +1,13 @@
 <template>
   <div id="race-day">
     <h2>Race Day Information</h2>
+
     <div class="content">
       <h4>Race Instructions</h4>
-      <p>
-        <a
-          href="https://docs.google.com/document/d/1kpH883cvk1JbXcxhX87MiO-4s4xvpZgkB8KsyKYksLM/edit?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Click here</a
-        >
-        to view the race instructions.
-      </p>
-      <h4>Baggage Drop Off</h4>
+
+      <p>Instructions for the day of the race will be provided here shortly.</p>
+
+      <!-- <h4>Baggage Drop Off</h4>
       <p>
         Directions will be clearly signposted. You will be provided with a bag
         tag at drop-off. Please write on the tag your race number that you will
@@ -67,10 +62,14 @@
         behind Sir John Rogerson’s Quay after the finish line. Any prizes not
         collected on the evening will be mailed out to competitors.
       </p>
-      <p><strong>Enjoy your Race!!</strong></p>
+      <p><strong>Enjoy your Race!!</strong></p> -->
     </div>
   </div>
 </template>
+
+<script>
+export default { name: 'HomeRaceDay' };
+</script>
 
 <style scoped lang="scss">
 h4 {
