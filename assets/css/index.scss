@@ -1,24 +1,27 @@
 @import 'vars';
-// @import "prefixer.less";
-// @import "accordion.less";
-// @import "hamburger.less";
-// @import "variables.less";
 
 $font-size: 16px;
 
-@keyframes bounce { 50% { transform: translate(0px, -15px); } 100%  { transform: translate(0px, 0px); } }
+@keyframes bounce {
+  50% {
+    transform: translate(0px, -15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
 
 body {
-	font-family: Oswald;
-	font-weight: 400;
-	font-size: $font-size;
-	line-height: 2em;
-	color: $primary;
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: $font-size;
+  line-height: 2em;
+  color: $primary;
 
-	p {
-		padding: 1em 2em 1em 2em;
-		text-align: justify;
-	}
+  p {
+    padding: 1em 2em 1em 2em;
+    text-align: justify;
+  }
 }
 
 ::selection {
@@ -26,51 +29,55 @@ body {
   background: none;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: Oswald;
-	font-weight: 900;
-	text-transform: uppercase;
-	text-align: center;
-	line-height: 1em;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Oswald;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1em;
 }
 
 h2 {
-	font-size: 4.5em;
-	line-height: 1em;
-	background: $primary;
-	color: $highlight;
-	padding: 15px 0;
-	margin: 0;
-	border-top: solid 5px $highlight;
+  font-size: 4.5em;
+  line-height: 1em;
+  background: $primary;
+  color: $highlight;
+  padding: 15px 0;
+  margin: 0;
+  border-top: solid 5px $highlight;
 
-	@media screen and (max-width: $break-medium - 1) {
-		font-size: 3.5em;
-	}
+  @media screen and (max-width: $break-medium - 1) {
+    font-size: 3.5em;
+  }
 }
 
 h3 {
-	font-size: 2.5em;
-	color: $highlight;
+  font-size: 2.5em;
+  color: $highlight;
 }
 
 h4 {
-	font-size: 1.5em;
-	margin: 11px 0;
-	padding: 0.5em 1.25em 0;
-	color: $primary;
-	text-align: left;
+  font-size: 1.5em;
+  margin: 11px 0;
+  padding: 0.5em 1.25em 0;
+  color: $primary;
+  text-align: left;
 }
 
 h5 {
-	text-align: left;
+  text-align: left;
 }
 
 a {
-	color: $highlight;
-	text-decoration: none;
+  color: $highlight;
+  text-decoration: none;
 
-	&:hover {
-		color: darken($highlight, 10%);
-		text-decoration: underline;
-	}
+  &:hover {
+    color: darken($highlight, 10%);
+    text-decoration: underline;
+  }
 }

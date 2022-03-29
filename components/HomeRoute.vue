@@ -16,7 +16,7 @@
       </picture>
       <div class="content">
         <p>
-          The race will be held on Tuesday, July 7th, starting at 7:45pm. The
+          The race will be held on Thursday, June 23rd starting at 7:45pm. The
           race starts on the South Docks at Lime Street which is very near to
           the Samuel Beckett Bridge - that's the one almost opposite the
           Convention Centre. From there you will head towards the City Centre
@@ -49,6 +49,12 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'HomeRoute',
+};
+</script>
 
 <style scoped lang="scss">
 .route img {

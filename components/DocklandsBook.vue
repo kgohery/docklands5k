@@ -12,7 +12,7 @@
 </template>
 
 <script>
-export default {}
+export default { name: 'DocklandsBook' };
 </script>
 
 <style scoped lang="scss">

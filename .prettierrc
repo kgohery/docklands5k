@@ -1,4 +1,19 @@
 {
-  "semi": false,
-  "singleQuote": true
+  // "bracketSpacing": true,
+  // "jsxBracketSameLine": false,
+  // "printWidth": 80,
+  // "proseWrap": "never",
+  // "semi": true,
+  // "singleQuote": true,
+  // "tabWidth": 2,
+  // "trailingComma": "all",
+  // "useTabs": false,
+  // "overrides": [
+  //   {
+  //     "files": ["static_conf.json"],
+  //     "options": {
+  //       "parser": "json-stringify"
+  //     }
+  //   }
+  // ]
 }

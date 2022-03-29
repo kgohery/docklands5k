@@ -1,24 +1,28 @@
-import pkg from './package'
-
 export default {
-  mode: 'spa',
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  ssr: false,
 
-  /*
-   ** Headers of the page
-   */
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: pkg.name,
+    title: 'Docklands 5K',
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         type: 'text/css',
-        href: 'https://fonts.googleapis.com/css?family=Oswald:400,700'
+        href: 'https://fonts.googleapis.com/css?family=Oswald:400,700',
       },
       {
         rel: 'stylesheet',
@@ -26,7 +30,7 @@ export default {
         href: 'https://use.fontawesome.com/releases/v5.7.2/css/brands.css',
         integrity:
           'sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK',
-        crossorigin: 'anonymous'
+        crossorigin: 'anonymous',
       },
       {
         rel: 'stylesheet',
@@ -34,61 +38,46 @@ export default {
         href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css',
         integrity:
           'sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr',
-        crossorigin: 'anonymous'
-      }
-    ]
+        crossorigin: 'anonymous',
+      },
+    ],
   },
 
-  /*
-   ** Customize the progress-bar color
-   */
-  loading: { color: '#fff' },
-
-  /*
-   ** Global CSS
-   */
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // SCSS file in the project
-    '@/assets/css/index.scss'
+    '@/assets/css/index.scss',
   ],
 
-  /*
-   ** Plugins to load before mounting the App
-   */
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
-  /*
-   ** Nuxt.js modules
-   */
-  modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    ['@nuxtjs/google-analytics', { id: 'UA-61217617-1', dev: false }]
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+    // https://go.nuxtjs.dev/eslint
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
   ],
-  /*
-   ** Axios module configuration
-   */
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+    // https://go.nuxtjs.dev/axios
+    '@nuxtjs/axios',
+  ],
+
+  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    baseURL: '/',
   },
 
-  /*
-   ** Build configuration
-   */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
-}
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {},
+
+  googleAnalytics: {
+    id: 'UA-61217617-1',
+  },
+};
