@@ -7,7 +7,7 @@
         alt="Docklands 5k logo"
       />
 
-      <h3>Thursday, June 23rd@ 7:45pm</h3>
+      <h3>Thursday, June 23rd @ 7:45pm</h3>
 
       <!--<div class="instructions">
         <h3>

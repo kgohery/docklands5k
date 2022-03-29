@@ -254,7 +254,7 @@
       <p>
          2022 Results will appear on
         <a href="https://www.myrunresults.com" target="_blank">
-           https://www.myrunresults.com>
+           https://www.myrunresults.com
         </a>
 
       </p>
