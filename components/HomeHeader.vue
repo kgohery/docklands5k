@@ -20,7 +20,15 @@
         </h3>
       </div>
       -->
-
+      <div class="instructions">
+        <h3>
+          <a
+            href="https://www.myrunresults.com/events/docklands_5k_2022/4426/details"
+            target="_blank"
+            >Register Now</a
+          >
+        </h3>
+      </div>
       <div class="social-links">
         <a href="https://www.facebook.com/crusaders5k" target="_blank">
           <i class="fab fa-facebook-f"></i>
