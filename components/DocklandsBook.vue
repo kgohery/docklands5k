@@ -1,13 +1,13 @@
 <template>
   <div class="book">
-    <!--
+
     <a
       class="button"
-      href="https://register.primoevents.com/ps/event/Docklands5K2019"
+      href="https://www.myrunresults.com/events/docklands_5k_2022/4426/details"
       target="_blank"
       >Register Now</a
     >
-    -->
+
   </div>
 </template>
 
