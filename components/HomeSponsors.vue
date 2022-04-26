@@ -8,6 +8,10 @@
     </h4>
 
     <div class="links">
+      <a href="https://www.waystone.com/" target="_blank" class="primary">
+        <img src="@/assets/images/sponsors/logo-waystone.png" alt="Waystone" />
+      </a>
+
       <a href="http://www.frsltd.com/" target="_blank">
         <img src="@/assets/images/sponsors/logo-frs.png" alt="FRS" />
       </a>
@@ -46,6 +50,69 @@
         <img
           src="@/assets/images/sponsors/logo-ald.png"
           alt="ALD Automotive"
+        />
+      </a>
+
+      <a href="https://www.doylecollection.com/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-doyle-collection.png"
+          alt="Doyle Collection"
+        />
+      </a>
+
+      <a href="https://www.citco.com/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-citco.png"
+          alt="Citco"
+        />
+      </a>
+
+      <a href="https://www.pitman-training.ie/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-pitman.png"
+          alt="Pitman"
+        />
+      </a>
+
+      <a href="https://www.owenreilly.ie/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-owen-reilly.png"
+          alt="Owen Reilly"
+        />
+      </a>
+
+      <a href="https://www.pwc.ie/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-pwc.png"
+          alt="PWC"
+        />
+      </a>
+
+      <a href="https://runzone.ie/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-runzone.png"
+          alt="Runzone"
+        />
+      </a>
+
+      <a href="https://everards.ie/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-everards.png"
+          alt="Everards"
+        />
+      </a>
+
+      <a href="https://www.risksystem.com/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-risk-system.png"
+          alt="Risk System"
+        />
+      </a>
+
+      <a href="https://www.theaddresscollective.com/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-address-collective.png"
+          alt="The Address Collective"
         />
       </a>
     </div>
