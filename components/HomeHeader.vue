@@ -2,7 +2,7 @@
   <div id="top" ref="header">
     <div class="content">
       <img
-        src="@/assets/images/logo-white.png"
+        src="@/assets/images/logo-waystone-white.png"
         class="logo"
         alt="Docklands 5k logo"
       />
@@ -98,7 +98,7 @@ export default {
     width: 80%;
     text-align: center;
     .logo {
-      width: 65%;
+      width: 90%;
     }
   }
 
@@ -109,7 +109,7 @@ export default {
     background-image: url(~assets/images/runners-2016-l.jpg);
     .content {
       .logo {
-        width: 80%;
+        width: 100%;
       }
     }
   }
