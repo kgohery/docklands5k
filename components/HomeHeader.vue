@@ -98,7 +98,7 @@ export default {
     width: 80%;
     text-align: center;
     .logo {
-      width: 100%;
+      width: 90%;
     }
   }
 
