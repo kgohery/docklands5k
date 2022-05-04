@@ -96,7 +96,7 @@ export default {
   border-top: solid 5px $highlight;
 
   .logo-container {
-    width: 100%;
+    width: 80%;
     text-align: center;
     padding-bottom: 50px;
     .logo {
@@ -117,10 +117,8 @@ export default {
   }
   @media screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
     background-image: url(~assets/images/runners-2016-l.jpg);
-    .content {
-      .logo {
-        width: 100%;
-      }
+    .logo-container {
+      width: 100%;
     }
   }
   @media screen and (min-width: $break-large) {
@@ -128,10 +126,8 @@ export default {
   }
 
   @media screen and (max-width: $break-medium - 1) {
-    .content {
-      .logo {
-        width: 100%;
-      }
+    .logo-container {
+      width: 100%;
     }
   }
 
