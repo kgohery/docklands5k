@@ -1,12 +1,13 @@
 <template>
   <div id="top" ref="header">
-    <div class="content">
+    <div class="logo-container">
       <img
         src="@/assets/images/logo-waystone-white.png"
         class="logo"
         alt="Docklands 5k logo"
       />
-
+    </div>
+    <div class="content">
       <h3>Thursday, June 23rd @ 7:45pm</h3>
 
       <!--<div class="instructions">
@@ -93,6 +94,15 @@ export default {
   background-repeat: no-repeat;
   background-position: top center;
   border-top: solid 5px $highlight;
+
+  .logo-container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    .logo {
+      width: 90%;
+    }
+  }
 
   .content {
     width: 80%;
