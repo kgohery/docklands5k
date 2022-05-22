@@ -16,7 +16,7 @@
         </p>
 
         <p>
-          The Docklands 5k is a non-profit event. All proceeds will be used to
+          The Waystone Docklands 5k is a non-profit event. All proceeds will be used to
           improve the facilities of Crusaders AC and to promote sport, health
           and wellbeing in the community.
         </p>
@@ -64,7 +64,7 @@
           South Quay. From there you will run back past the start line. The
           finish line is approx. 500 metres beyond the start line and you will
           finish at Sir John Rogerson's Quay. You are then just a small stroll
-          away from the bag drop area [TBD] and that well deserved night out!!
+          away from the bag drop area in Capital Dock Square and that well deserved night out!!
         </p>
 
         <p>

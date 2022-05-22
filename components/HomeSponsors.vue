@@ -115,6 +115,14 @@
           alt="The Address Collective"
         />
       </a>
+
+      <a href="https://www.mcgettiganscookhouse.ie/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-mcgettigans.png"
+          alt="McGettigans Cookhouse"
+        />
+      </a>
+
     </div>
   </div>
 </template>
