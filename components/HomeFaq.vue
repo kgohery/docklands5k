@@ -34,9 +34,9 @@
       <p>
          After that time (up to race day at 17:00) or until we reach the race limit
         we will be able to accept walk-ins for &euro;25 per entry. Available at number
-        pick up. [TBD]
+        pick up at Club Vitae in the Clayton Hotel in Cardiff Lane, Dublin 2.
       </p>
-
+  <p>If you have a bulk entry requirement with more than 10 runners, we would be happy to send the person a spreadsheet to make it easier to register? They just need to send an email request to our Race Director, James Cottle, at <a href="mailto:jhcottle@hotmail.com">jhcottle@hotmail.com</a></p>
     </div>
 
     <a class="question" @click="toggleAnswer('get')">
@@ -79,7 +79,7 @@
         and back to the South Quay. From there you will run back past the start line.
         The finish line is approx. 500 metres beyond the start line and you will
         finish at Sir John Rogerson's Quay. You are then just a small stroll away
-        from the bag drop area [TBD] and that well deserved night out!!
+        from the bag drop area in Capital Dock Square and that well deserved night out!!
       </p>
 
     </div>
@@ -87,40 +87,12 @@
     <a class="question" @click="toggleAnswer('prizes')"> Prizes </a>
 
     <div class="answer prizes">
-
-      <p>[TBD]</p>
-
-      <!-- <h5>Individual Prizes</h5>
-
+      <p>1st, 2nd and 3rd male and female runners across the lines will receive cash prizes, respectively, of €300, €200 and €100. There will also be a cash prize of €100 if either or both of the male and female course records are broken. The current records are 14:30 (M) and 16:12 (F).</p>
+      <p>RunZone vouchers will be awarded to the first two finishers in the following age categories (male and female): O/40, O/45, O/50 and to the first finisher in the following age categories (male and female): O/55, O/60, O/65 (excluding anyone who finishes in the first 3 or as a participant in corporate team that wins a prize).</p>
+      <p>RunZone vouchers will be awarded to the first 3 all-male, all-female and mixed (2 males, 1 female or 2 females, 1 male) teams.</p>
       <p>
-         Cash prizes for 1st, 2nd and 3rd male and female athletes across the line.
-
+        The John Fitzsimons and Marty Purcell permanent cups will be awarded to, respectively, the winning 3-man and 3-woman AAI-affiliated athletics club team.
       </p>
-
-      <h5>Age Category Prizes</h5>
-
-      <p>
-         Male and Female: 1st O/40, 45, 50, 55, 60 and 65 and 2nd O/40, 45 and 50
-
-        <br />
-         In order to be eligible for individual prizes runners should be outside
-        of 1st 3 across the line or in a podium-placed corporate team.
-      </p>
-
-      <h5>Teams</h5>
-
-      <p>
-         Cash prizes for 1st, 2nd and 3rd mixed (in any combination), all male and
-        all female teams of 3. There will also be trophies for winning male and female
-        AAI-affiliated athletic club teams.
-      </p>
-
-      <h5>Course Records</h5>
-
-      <p>
-         There are prizes for breaking the male and female course records which respectively
-        stand at 14:30 (John Coghlan) and 16:12 (Shona Heaslip) set in 2017.
-      </p> -->
 
     </div>
 
@@ -130,7 +102,14 @@
 
     <div class="answer collection">
 
-      <p>[Location and opening hours TBD]</p>
+      <p>If not already requested by post the tee shirts and numbers can be collected from Club Vitae in the Clayton Hotel, Cardiff lane, Dublin 2 at the following times:<br />
+        Wednesday 22June 2022: 07:00-09:00; 12:00-14:00 and 17:00-19:00.
+
+
+<br />
+Thursday 23 June 2022: 07:00-09:00; 12:00-14:00 and 17:00-19:00
+      </p>
+
 
     </div>
 
@@ -141,7 +120,7 @@
     <div class="answer bag-drop">
 
       <p>
-         There will be a designated bag drop area [TBD]. At registration you will
+        There will be a designated bag drop area in Capital Dock Square. At the bag drop you will
         receive a sticker coinciding with your race number which you should attach
         to your baggage. Collect your baggage in the same spot after the race and
         DON'T forget to bring your race number so that we know which bag to give
