@@ -123,6 +123,13 @@
         />
       </a>
 
+      <a href="https://www.airbus.com/" target="_blank">
+        <img
+          src="@/assets/images/sponsors/logo-airbus.png"
+          alt="Airbus"
+        />
+      </a>
+
     </div>
   </div>
 </template>
