@@ -31,7 +31,6 @@
       >
         <h2>Register Now</h2>
       </a>
-
     </nav>
   </div>
 </template>

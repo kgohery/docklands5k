@@ -26,8 +26,9 @@
           Talbot Bridge. There you will cross the Bridge again and back to the
           South Quay. From there you will run back past the start line. The
           finish line is approx. 600 metres beyond the start line and you will
-          finish at Capital Dock on Sir John Rogerson's Quay. You are then just a small stroll
-          away from the bag drop area in Capital Dock Square and that well deserved night out!
+          finish at Capital Dock on Sir John Rogerson's Quay. You are then just
+          a small stroll away from the bag drop area in Capital Dock Square and
+          that well deserved night out!
         </p>
         <p>
           Please stay in touch on

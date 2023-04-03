@@ -82,10 +82,7 @@
       </a> -->
 
       <a href="https://www.pwc.ie/" target="_blank">
-        <img
-          src="@/assets/images/sponsors/logo-pwc.png"
-          alt="PWC"
-        />
+        <img src="@/assets/images/sponsors/logo-pwc.png" alt="PWC" />
       </a>
 
       <!-- <a href="https://runzone.ie/" target="_blank">
@@ -96,10 +93,7 @@
       </a> -->
 
       <a href="https://everards.ie/" target="_blank">
-        <img
-          src="@/assets/images/sponsors/logo-everards.png"
-          alt="Everards"
-        />
+        <img src="@/assets/images/sponsors/logo-everards.png" alt="Everards" />
       </a>
 
       <a href="https://www.risksystem.com/" target="_blank">
@@ -129,7 +123,6 @@
           alt="Airbus"
         />
       </a> -->
-
     </div>
   </div>
 </template>

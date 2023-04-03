@@ -16,9 +16,9 @@
         </p>
 
         <p>
-          The Waystone Docklands 5k is a non-profit event. All proceeds will be used to
-          improve the facilities of Crusaders AC and to promote sport, health
-          and wellbeing in the community.
+          The Waystone Docklands 5k is a non-profit event. All proceeds will be
+          used to improve the facilities of Crusaders AC and to promote sport,
+          health and wellbeing in the community.
         </p>
 
         <p>We look forward to seeing you there!!</p>
@@ -63,8 +63,9 @@
           Talbot Bridge. There you will cross the Bridge again and back to the
           South Quay. From there you will run back past the start line. The
           finish line is approx. 600 metres beyond the start line and you will
-          finish at Capital Dock on Sir John Rogerson’s Quay. You are then just a small stroll
-          away from the bag drop area in Capital Dock Square and that well deserved night out!!
+          finish at Capital Dock on Sir John Rogerson’s Quay. You are then just
+          a small stroll away from the bag drop area in Capital Dock Square and
+          that well deserved night out!!
         </p>
 
         <p>
