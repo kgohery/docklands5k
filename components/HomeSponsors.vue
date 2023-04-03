@@ -8,22 +8,22 @@
     </h4>
 
     <div class="links">
-      <a href="https://www.waystone.com/" target="_blank" class="primary">
+      <!-- <a href="https://www.waystone.com/" target="_blank" class="primary">
         <img src="@/assets/images/sponsors/logo-waystone.png" alt="Waystone" />
-      </a>
+      </a> -->
 
-      <a href="http://www.frsltd.com/" target="_blank">
+      <!-- <a href="http://www.frsltd.com/" target="_blank">
         <img src="@/assets/images/sponsors/logo-frs.png" alt="FRS" />
-      </a>
+      </a> -->
 
-      <a href="https://www.applegreenstores.com/" target="_blank">
+      <!-- <a href="https://www.applegreenstores.com/" target="_blank">
 
         <img
           src="@/assets/images/sponsors/logo-applegreen.png"
           alt="Applegreen"
         />
 
-      </a>
+      </a> -->
 
       <a href="http://www.rushfleet.com/" target="_blank">
         <img
@@ -32,26 +32,26 @@
         />
       </a>
 
-      <a href="https://www.voltairediamonds.ie/" target="_blank">
+      <!-- <a href="https://www.voltairediamonds.ie/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-voltaire.png"
           alt="Voltaire Diamonds"
         />
-      </a>
+      </a> -->
 
-      <a href="https://www.capitaldockresidence.ie/" target="_blank">
+      <!-- <a href="https://www.capitaldockresidence.ie/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-capital-dock.png"
           alt="Capital Dock"
         />
-      </a>
+      </a> -->
 
-      <a href="https://www.aldautomotive.com/" target="_blank">
+      <!-- <a href="https://www.aldautomotive.com/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-ald.png"
           alt="ALD Automotive"
         />
-      </a>
+      </a> -->
 
       <a href="https://www.doylecollection.com/" target="_blank">
         <img
@@ -60,26 +60,26 @@
         />
       </a>
 
-      <a href="https://www.citco.com/" target="_blank">
+      <!-- <a href="https://www.citco.com/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-citco.png"
           alt="Citco"
         />
-      </a>
+      </a> -->
 
-      <a href="https://www.pitman-training.ie/" target="_blank">
+      <!-- <a href="https://www.pitman-training.ie/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-pitman.png"
           alt="Pitman"
         />
-      </a>
+      </a> -->
 
-      <a href="https://www.owenreilly.ie/" target="_blank">
+      <!-- <a href="https://www.owenreilly.ie/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-owen-reilly.png"
           alt="Owen Reilly"
         />
-      </a>
+      </a> -->
 
       <a href="https://www.pwc.ie/" target="_blank">
         <img
@@ -88,12 +88,12 @@
         />
       </a>
 
-      <a href="https://runzone.ie/" target="_blank">
+      <!-- <a href="https://runzone.ie/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-runzone.png"
           alt="Runzone"
         />
-      </a>
+      </a> -->
 
       <a href="https://everards.ie/" target="_blank">
         <img
@@ -116,19 +116,19 @@
         />
       </a>
 
-      <a href="https://www.mcgettiganscookhouse.ie/" target="_blank">
+      <!-- <a href="https://www.mcgettiganscookhouse.ie/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-mcgettigans.png"
           alt="McGettigans Cookhouse"
         />
-      </a>
+      </a> -->
 
-      <a href="https://www.airbus.com/" target="_blank">
+      <!-- <a href="https://www.airbus.com/" target="_blank">
         <img
           src="@/assets/images/sponsors/logo-airbus.png"
           alt="Airbus"
         />
-      </a>
+      </a> -->
 
     </div>
   </div>

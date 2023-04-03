@@ -24,7 +24,7 @@
     <div class="answer fee">
 
       <p>
-         The race entry fee is &euro;20 per individual athlete. Teams of 3 are &euro;60.
+        The race entry fee is &euro;20 per individual athlete, plus a one-day licence fee of &euro;2 for non-Athletics Ireland registered runners. Teams of 3 are &euro;60.
         There will be a small admin fee to cover bank charges and process fees. The
         minimum age requirement for entry into the race is 16.
       </p>
@@ -33,10 +33,10 @@
 
       <p>
          After that time (up to race day at 17:00) or until we reach the race limit
-        we will be able to accept walk-ins for &euro;25 per entry. Available at number
+        we will be able to accept walk-ins for &euro;25 per entry, plus a one-day licence fee of &euro;2 for non-Athletics Ireland registered runners. Available at number
         pick up at Club Vitae in the Clayton Hotel in Cardiff Lane, Dublin 2.
       </p>
-  <p>If you have a bulk entry requirement with more than 10 runners, we would be happy to send the person a spreadsheet to make it easier to register? They just need to send an email request to our Race Director, James Cottle, at <a href="mailto:jhcottle@hotmail.com">jhcottle@hotmail.com</a></p>
+  <p>If you have a bulk entry requirement with more than 10 runners, we would be happy to send the person a spreadsheet to make it easier to register. They just need to send an email request to our Race Director, James Cottle, at <a href="mailto:jhcottle@hotmail.com">jhcottle@hotmail.com</a></p>
     </div>
 
     <a class="question" @click="toggleAnswer('get')">
@@ -69,17 +69,14 @@
     <div class="answer course">
 
       <p>
-         The race will be held on Thursday, June 23rd, starting at 7:45pm. The race
-        starts on the South Docks at Lime Street which is very near to the Samuel
+         The race will be held on Thursday, June 15th, starting at 7:45pm. The race starts on the South Docks near Lime Street which is very near to the Samuel
         Beckett Bridge - that's the one almost opposite the Convention Centre. From
         there you will head towards the City Centre all the way to the Matt Talbot
         Bridge which you will cross over to the North Quay. From there you will run
         all the way down to the 3 Arena where you will loop back down the North Quay
         again towards the Matt Talbot Bridge. There you will cross the Bridge again
         and back to the South Quay. From there you will run back past the start line.
-        The finish line is approx. 500 metres beyond the start line and you will
-        finish at Sir John Rogerson's Quay. You are then just a small stroll away
-        from the bag drop area in Capital Dock Square and that well deserved night out!!
+        You will finish at Capital Dock on Sir John Rogerson’s Quay. You are then just a small stroll away from the bag drop area in the Capital Dock Square etc
       </p>
 
     </div>
@@ -87,11 +84,7 @@
     <a class="question" @click="toggleAnswer('prizes')"> Prizes </a>
 
     <div class="answer prizes">
-      <p>1st, 2nd and 3rd male and female runners across the lines will receive cash prizes, respectively, of €300, €200 and €100. There will also be a cash prize of €100 if either or both of the male and female course records are broken. The current records are 14:30 (M) and 16:12 (F).</p>
-      <p>RunZone vouchers will be awarded to the first two finishers in the following age categories (male and female): O/40, O/45, O/50 and to the first finisher in the following age categories (male and female): O/55, O/60, O/65 (excluding anyone who finishes in the first 3 or as a participant in corporate team that wins a prize).</p>
-      <p>RunZone vouchers will be awarded to the first 3 all-male, all-female and mixed (2 males, 1 female or 2 females, 1 male) teams.</p>
-      <p>
-        The John Fitzsimons and Marty Purcell permanent cups will be awarded to, respectively, the winning 3-man and 3-woman AAI-affiliated athletics club team.
+      <p>There will be cash prizes for the top finishers
       </p>
 
     </div>
@@ -103,11 +96,11 @@
     <div class="answer collection">
 
       <p>If not already requested by post the tee shirts and numbers can be collected from Club Vitae in the Clayton Hotel, Cardiff lane, Dublin 2 at the following times:<br />
-        Wednesday 22June 2022: 07:00-09:00; 12:00-14:00 and 17:00-19:00.
+        Wednesday 14th June 2023: 07:00-09:00; 12:00-14:00 and 17:00-19:00.
 
 
 <br />
-Thursday 23 June 2022: 07:00-09:00; 12:00-14:00 and 17:00-19:00
+Thursday 15th June 2023: 07:00-09:00; 12:00-14:00 and 17:00-19:00
       </p>
 
 
@@ -231,9 +224,21 @@ Thursday 23 June 2022: 07:00-09:00; 12:00-14:00 and 17:00-19:00
     <div class="answer results">
 
       <p>
-         2022 Results will appear on
+         2023 Results will appear on
         <a href="https://www.myrunresults.com" target="_blank">
            https://www.myrunresults.com
+        </a>
+
+      </p>
+
+      <p>
+         2022 Docklands 5k Results:
+        <a
+          href="https://www.myrunresults.com/events/docklands_5k_2022/4426/results"
+          target="_blank"
+        >
+           https://www.myrunresults.com/events/docklands_5k_2022/4426/results
+
         </a>
 
       </p>

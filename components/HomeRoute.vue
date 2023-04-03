@@ -16,8 +16,8 @@
       </picture>
       <div class="content">
         <p>
-          The race will be held on Thursday, June 23rd starting at 7:45pm. The
-          race starts on the South Docks at Lime Street which is very near to
+          The race will be held on Thursday, June 15th starting at 7:45pm. The
+          race starts on the South Docks near Lime Street which is very near to
           the Samuel Beckett Bridge - that's the one almost opposite the
           Convention Centre. From there you will head towards the City Centre
           all the way to the Matt Talbot Bridge which you will cross over to the
@@ -25,8 +25,8 @@
           where you will loop back down the North Quay again towards the Matt
           Talbot Bridge. There you will cross the Bridge again and back to the
           South Quay. From there you will run back past the start line. The
-          finish line is approx. 500 metres beyond the start line and you will
-          finish at Sir John Rogerson's Quay. You are then just a small stroll
+          finish line is approx. 600 metres beyond the start line and you will
+          finish at Capital Dock on Sir John Rogerson's Quay. You are then just a small stroll
           away from the bag drop area in Capital Dock Square and that well deserved night out!
         </p>
         <p>
