@@ -2,13 +2,13 @@
   <div id="top" ref="header">
     <div class="logo-container">
       <img
-        src="@/assets/images/logo-waystone-white.png"
+        src="@/assets/images/logo-white.png"
         class="logo"
         alt="Docklands 5k logo"
       />
     </div>
     <div class="content">
-      <h3>Thursday, June 23rd @ 7:45pm</h3>
+      <h3>Thursday June 15th @ 7.45pm</h3>
 
       <!--<div class="instructions">
         <h3>
@@ -21,7 +21,7 @@
         </h3>
       </div>
       -->
-      <div class="instructions">
+      <!-- <div class="instructions">
         <h3>
           <a
             href="https://www.myrunresults.com/events/docklands_5k_2022/4426/details"
@@ -29,7 +29,7 @@
             >Register Now</a
           >
         </h3>
-      </div>
+      </div> -->
       <div class="social-links">
         <a href="https://www.facebook.com/crusaders5k" target="_blank">
           <i class="fab fa-facebook-f"></i>
@@ -96,7 +96,7 @@ export default {
   border-top: solid 5px $highlight;
 
   .logo-container {
-    width: 80%;
+    width: 60%;
     text-align: center;
     padding-bottom: 50px;
     .logo {

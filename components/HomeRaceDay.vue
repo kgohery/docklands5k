@@ -55,9 +55,7 @@ other litter in the street. There will be bins provided for the purpose. Please 
       </p>
       <h4>Prize-giving</h4>
       <p>
-        This will follow as soon as possible after the lead competitors have crossed the finish line and
-will be held at Capital Dock beyond the finish line. Any prizes not collected on the evening will
-be mailed out to competitors.
+       Prizes will be presented to the “top finishers” and the first teams across the line on the night, as well as the winning club teams. We haven’t determined the depth of top finishers or the amount of prize money just yet. Age category and 2nd and 3rd placed (non-club) team prizes will be mailed out after the event.
       </p>
       <p><strong>Enjoy your Race!!</strong></p>
     </div>

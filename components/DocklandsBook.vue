@@ -1,12 +1,12 @@
 <template>
   <div class="book">
 
-    <a
+    <!-- <a
       class="button"
       href="https://www.myrunresults.com/events/docklands_5k_2022/4426/details"
       target="_blank"
       >Register Now</a
-    >
+    > -->
 
   </div>
 </template>
